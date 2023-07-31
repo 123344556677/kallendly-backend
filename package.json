@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "engines": {
+    "node": "16.x"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.9.0",
+    "@google-cloud/local-auth": "^2.1.0",
+    "add-time": "^1.0.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "convert-time": "^0.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "google-auth-library": "^8.5.1",
+    "googleapis": "^105.0.0",
+    "ical-generator": "^3.5.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.5.4",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.19",
+    "razorpay": "^2.8.3",
+    "uuid": "^9.0.0"
+  }
+}
